@@ -35,7 +35,7 @@ function setWeather(name, immediate = false) {
  if (immediate) for (const key of ['hour', 'wind', 'cover', 'rain']) state[key] = target[key];
  $('mood').textContent = target.name; autoAt = state.time + 100; dirty = true;
 }
-function togglePause() { state.paused = !state.paused; $('pause').textContent = state.paused ? 'â–¶' : 'â…¡'; $('pause').setAttribute('aria-label', state.paused ? 'Resume scene' : 'Pause scene'); dirty = true; wake(); }
+function togglePause() { state.paused = !state.paused; $('pause').textContent = state.paused ? '▶' : 'Ⅱ'; $('pause').setAttribute('aria-label', state.paused ? 'Resume scene' : 'Pause scene'); dirty = true; wake(); }
 async function dispatchTerrain() {
  await world.setSeed(seedNumber(state.worldSeed));await world.update(state.cameraX,state.cameraY);
  shoreReset=true;rippleData.fill(0);runtime.write(ripples,rippleData);$('world-seed').textContent=`Seed ${state.worldSeed}`;
@@ -217,5 +217,3 @@ async function start() {
  await resize();compute();await runtime.idle();diagnostics.ready=true;diagnostics.backend='WebCUDA + Three.js r186 / TSL';diagnostics.startupMs=performance.now()-startupStart;$('loading').classList.add('hidden');wake();requestAnimationFrame(frame);
 }
 start().catch(fail);
-
-
