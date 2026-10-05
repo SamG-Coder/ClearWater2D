@@ -1,0 +1,10 @@
+node_modules/
+dist/
+kernels/
+reports/
+*.log
+.env
+.env.*
+!.env.example
+scripts/tune.mjs
+scripts/capture-shore.mjs

@@ -1,0 +1,22 @@
+{
+  "name": "clearwater2d",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/verify.mjs",
+    "test:build": "node scripts/verify-build.mjs",
+    "test:vegetation": "node scripts/verify-vegetation.mjs",
+    "test:resolution": "node scripts/verify-resolution.mjs"
+  },
+  "dependencies": {
+    "three": "0.186.0"
+  },
+  "devDependencies": {
+    "playwright": "1.56.1"
+  },
+  "description": "Seeded tropical islands, spectral water and sun-projected vegetation in CUDA WebShader and pixel-art 2D.",
+  "license": "MIT"
+}

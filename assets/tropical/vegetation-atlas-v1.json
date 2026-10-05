@@ -1,0 +1,181 @@
+{
+  "image": "vegetation-atlas-v1.png",
+  "imageSize": [
+    1448,
+    1086
+  ],
+  "projection": "2:1 isometric-compatible artwork",
+  "sampling": "nearest",
+  "alphaCutoff": 0.5,
+  "status": "Generated artwork; suggested world dimensions have not yet been validated in the scene.",
+  "sprites": [
+    {
+      "name": "palm-upright",
+      "rect": {
+        "x": 49,
+        "y": 79,
+        "width": 299,
+        "height": 396
+      },
+      "anchorPixels": [
+        149,
+        392
+      ],
+      "suggestedHeightMetres": 14
+    },
+    {
+      "name": "palm-lean-left",
+      "rect": {
+        "x": 405,
+        "y": 93,
+        "width": 293,
+        "height": 382
+      },
+      "anchorPixels": [
+        223,
+        378
+      ],
+      "suggestedHeightMetres": 14
+    },
+    {
+      "name": "coconut-palm-lean-right",
+      "rect": {
+        "x": 779,
+        "y": 93,
+        "width": 297,
+        "height": 382
+      },
+      "anchorPixels": [
+        71,
+        378
+      ],
+      "suggestedHeightMetres": 14
+    },
+    {
+      "name": "coconut-palm-upright",
+      "rect": {
+        "x": 1117,
+        "y": 79,
+        "width": 320,
+        "height": 396
+      },
+      "anchorPixels": [
+        164,
+        392
+      ],
+      "suggestedHeightMetres": 14
+    },
+    {
+      "name": "palm-young",
+      "rect": {
+        "x": 67,
+        "y": 515,
+        "width": 261,
+        "height": 312
+      },
+      "anchorPixels": [
+        136,
+        308
+      ],
+      "suggestedHeightMetres": 8
+    },
+    {
+      "name": "palm-sapling",
+      "rect": {
+        "x": 451,
+        "y": 581,
+        "width": 219,
+        "height": 244
+      },
+      "anchorPixels": [
+        113,
+        240
+      ],
+      "suggestedHeightMetres": 4
+    },
+    {
+      "name": "shrub-round",
+      "rect": {
+        "x": 779,
+        "y": 638,
+        "width": 270,
+        "height": 197
+      },
+      "anchorPixels": [
+        137,
+        193
+      ],
+      "suggestedHeightMetres": 2.2
+    },
+    {
+      "name": "shrub-spreading",
+      "rect": {
+        "x": 1126,
+        "y": 628,
+        "width": 299,
+        "height": 208
+      },
+      "anchorPixels": [
+        148,
+        204
+      ],
+      "suggestedHeightMetres": 2.2
+    },
+    {
+      "name": "bush-low",
+      "rect": {
+        "x": 79,
+        "y": 900,
+        "width": 218,
+        "height": 156
+      },
+      "anchorPixels": [
+        107,
+        152
+      ],
+      "suggestedHeightMetres": 1.4
+    },
+    {
+      "name": "fern",
+      "rect": {
+        "x": 453,
+        "y": 896,
+        "width": 249,
+        "height": 160
+      },
+      "anchorPixels": [
+        124,
+        156
+      ],
+      "suggestedHeightMetres": 1.2
+    },
+    {
+      "name": "beach-grass",
+      "rect": {
+        "x": 828,
+        "y": 903,
+        "width": 172,
+        "height": 145
+      },
+      "anchorPixels": [
+        86,
+        141
+      ],
+      "suggestedHeightMetres": 0.7
+    },
+    {
+      "name": "broadleaf-ground-cover",
+      "rect": {
+        "x": 1155,
+        "y": 910,
+        "width": 246,
+        "height": 147
+      },
+      "anchorPixels": [
+        119,
+        143
+      ],
+      "suggestedHeightMetres": 0.9
+    }
+  ]
+}

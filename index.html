@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a2427"><title>ClearWater2D</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%230d3437'/%3E%3Cpath d='M5 13q5-6 11 0t11 0M5 20q5-6 11 0t11 0' fill='none' stroke='%23b8e5ce' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./style.css">
+  <script type="importmap">{"imports":{"three/webgpu":"./node_modules/three/build/three.webgpu.js","three/tsl":"./node_modules/three/build/three.tsl.js","three":"./node_modules/three/build/three.core.js"}}</script>
+</head>
+<body>
+ <canvas id="scene" aria-label="ClearWater2D coastal scene. Drag to explore, scroll or pinch to zoom, tap water for ripples."></canvas>
+ <div id="loading"><h1>ClearWater2D</h1><p id="loading-message">Bringing the water to life…</p></div>
+ <footer class="scene-ui"><div class="signature">ClearWater2D<span>Drag to explore · Touch the water</span></div>
+ <nav aria-label="Scene controls"><button id="world-seed" title="Choose a world seed">Seed 1847</button><button id="mood" title="Change the weather">Sunlight</button><select id="resolution" aria-label="Render resolution" title="Render resolution"><option value="pixel">Pixel</option><option value="720">720p</option><option value="1080">1080p</option><option value="1440">1440p</option><option value="2160">4K</option></select><span class="divider"></span><button id="pause" aria-label="Pause scene" title="Pause (Space)">Ⅱ</button><button id="home" aria-label="Return to initial view" title="Return to view (R)">⌂</button><button id="fullscreen" aria-label="Fullscreen" title="Fullscreen">⛶</button></nav></footer>
+ <dialog id="seed-dialog"><form id="seed-form"><h2>World seed</h2><p>The same seed creates the same tropical islands and shallows.</p><label for="seed-input">Seed</label><input id="seed-input" maxlength="64" required autocomplete="off"><div class="seed-actions"><button type="button" id="seed-random">Random seed</button><button type="button" id="seed-cancel">Cancel</button><button type="submit">Create world</button></div></form></dialog>
+ <script type="module" src="./src/app.js"></script>
+</body></html>
